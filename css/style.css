@@ -1,0 +1,20 @@
+.kırmızı {
+  color: red;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.kutu {
+  width: 400px;
+  height: 75px;
+  background-color: blueviolet;
+  border: 10px solid rgb(255, 0, 234);
+  border-radius: 20px;
+  text-shadow: royalblue;
+  box-shadow: 10xp 10xp 10xp black;
+}

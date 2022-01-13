@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Who Am I ?  </title>    <!-- kullanıcının sayfaya tıkladıgında yukarıda görecegi sayfa adı -->
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>   
 <body>
 
-    <h2> MY RESUME  </h1>   <!-- h1-h6 arası başlık yapabiliriz, 6ya dogru küçülür -->
+    <h2 style="font-size: 50px; color:rgb(153, 136, 130)"> MY RESUME  </h1>   <!-- h1-h6 arası başlık yapabiliriz, 6ya dogru küçülür -->
 <hr>     <!-- araya çizgi çeker -->
 <p>    <!-- paragrafları bu başlıkta yazıyoruz, Satır başı yapmak için br kullanılır. -->
      
@@ -20,7 +23,7 @@
 
 </p>
 <hr>   <!-- araya çizgi çeker -->
-<h3> <u> About Me </u>  </h3>    <!-- h başlık atarken u kodu ise altını çizer -->
+<h3 style="font-size: 50px; background-color:blue"  > <u> About Me </u>  </h3>    <!-- h başlık atarken u kodu ise altını çizer -->
 
 <p>                
 <br> <i> Merhaba, Almanyada ikamet ediyorum. Dil ve Meslek kursları alıyorum.  </i>
@@ -75,14 +78,48 @@
     <br> Mid-Level Developer ( Orta Seviye Yazılımcı )
     <br> Senior Developer ( Uzman Yazılımcı )
     
-    Junior Developer Nedir? İş imkanları ve çok daha fazlası için Tıkla! 
-    Yurtdışı Web Developer İş İlanları için hemen Tıkla!   
+  <!-- başka bir siteye veya sayfaya referans vererek göndermek için a href... -->
+  <br>  
+  <a href="index.html">Junior Developer Nedir? İş imkanları ve çok daha fazlası için Tıkla!</a>
+  <br>  
+  <a href="https://tr.jooble.org/i%C5%9F-ilanlar%C4%B1-front-end-developer/Yurtd%C4%B1%C5%9F%C4%B1" target="_blank">Yurtdışı Web Developer İş İlanları için hemen Tıkla!</a>
+  <br>
+  <a href="img/18836931_10210995517222075_1987455826763865061_o.jpg">Fotograf</a>  
 
+  <!-- target blank kulllanıcı tıklayınca yeni sayfada linke gider.        -->
 
+ <!-- unsplash , pexels, flaticon  ücretsiz resim alabilecegimiz siteler -->
+</p>
 
+<form action="KAYDET.PHP">     <!-- KODLARI SUBMİT YAPINCA BURAYA GÖNDEDRİR-->
+<br>
+<input type="text">
+<input type="checkbox" name="hobi" id= "" > Futbol
+<input type="checkbox" name="hobi" id= "" > Basketbol
+<input type="checkbox" name="hobi" id= "" > Bilgisayar
+<input type="checkbox" name="hobi" id= "" > Spor
 
+<br>
+<input type="radio" name="cinsiyet" id="" > Erkek
+<input type="radio" name="cinsiyet" id="" > Kadın
 
+<br>
+<select name="sehir" id="">
+  <option value="ankara"> Ankara </option>
+  <option value="istanbul">İstanbul</option>
+  <option value="mersin">İzmir</option>
+  <option value="izmir">İzmir</option>
+</select>
 
+<textarea name="" id="" cols="30" rows="10"> Görüşleriniz varsa yazınız </textarea>
+</form>
+
+<div class="kutu">          </div>
+
+<p> 
+
+Hoşcakalın. Sağlıkla Kalın.
+Her şey gönlünüzce olsun...
 
 </p>
 
