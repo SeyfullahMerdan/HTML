@@ -1,32 +1,49 @@
-.kırmızı {
+
+a{
+ text-decoration: none;    /* Bütün altı çizili a'ları kaldırır, textlere dekorasyon verir... */
+ font-weight: 900;  /* belirttigimiz türün fontunu boldlaştırır,degiştirir. */
+}
+
+
+
+p{
+  color: rgb(8, 1, 15);
+  text-align: left;
+}
+
+
+.kirmizi {
   color: red;
   text-align: center;
   background-color: aquamarine;
 }
 
+
+
 .kutu {
   width: 400px;
   height: 75px;
-  background-color: blueviolet;
-  border: 10px solid rgb(255, 0, 234);
-  border-radius: 20px;
-  text-shadow: royalblue;
-  box-shadow: 10px 10px 10px black;
+  background-color: rgba(137, 43, 226, 0.027);
+  border-top: 10px solid rgb(55, 0, 255);
+  border-top-right-radius: 20px;
+  text-shadow: rgba(65, 105, 225, 0);
+  box-shadow: 5px 5px 5px rgb(233, 49, 49);
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: first baseline;
-  align-items: flex-end;
-  background-color: black;
-  height: 500px;
+.container{
+  display: flex;/* flex elemanların düzeni için diyebilirz.... flex yapısına geçmek için yazarız */
+  flex-direction: row;/* flex içindeki elemanların yanyana-aşagı yukarı olması için kullanılır  row default column yukarıdan aşagı*/
+  justify-content: flex-start ;/* flex içindeki elemanları hizalamak için kullanılır. Satıra nasıl yayılacagını belirler */
+  align-items: stretch ; /*  itemsleri oldugu yükseklige sıgdırdı  */
+  background-color: rgba(0, 0, 0, 0.336);
+  height: 400px;
+ 
 }
 
-.container div {
-  width: 100px;
-  height: 100px;
-  background-color: blueviolet;
-  padding: 20px;
-  margin: 20px;
+.container div{
+  width: 150px;
+ 
+  background-color: rgb(48, 28, 223);
+  padding: 30px;   /*  padding -- iç boşluk  ---  margin -- dış boşluk */
+  margin: 30px; 
 }
