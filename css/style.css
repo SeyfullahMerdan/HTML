@@ -19,7 +19,8 @@ a{
 input, textarea{
   border:1px solid rgb(0, 255, 76);
   border-radius:10px;      /* Kenarlardaki ovalligi sağlar */
-  padding: 10px;          /* input ve textareadaki kenarlardaki boşlugu azıcık büyütecek */
+  padding: 20px;          /* input ve textareadaki kenarlardaki boşlugu azıcık büyütecek */
+  width: 100% ; 
 }
 
 button{
@@ -45,12 +46,19 @@ button{
   gap: 20px;
 }
 
-.content h2 span,
+header .menu a{
+  font-weight: 600;
+  color: black;
+}
+
+
+.content h1 span,
 .header span {
   width: 50px;
   height: 50px;
   border-radius: 25px;
-  background-color: cornflowerblue;
+  background-color: coral;
+  padding: 25px 10px;
 }
 
 .content h1 {
@@ -109,7 +117,7 @@ button{
 }
 
 .section {
-  width: 60%;
+  width: 70%;
 }
 
 .section .card {
@@ -118,15 +126,34 @@ button{
   border-radius: 20px;
   padding: 50px;
   margin-bottom: 50px;
+  gap: 30px;
+  box-shadow:  3px 3px 5px coral ;
 }
 
+
+.section .card h2{
+
+color: rgb(35, 124, 12);
+
+}
+
+
+
 .section .card .left {
-  flex: 2;
+  flex: 2;   /* kartı 3'e bölüyor, 2 birim buraya 1 birim diger tarafa veryor. */
 }
 
 .section .card .right {
   flex: 1;
 }
+
+
+.section .form-row{
+  margin-bottom: 20px;
+}
+
+
+
 
 .footer {
   display: flex;
